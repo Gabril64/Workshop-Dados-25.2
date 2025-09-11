@@ -9,7 +9,7 @@
 
 -idade e nota: Utilizando pd.to_numeric, estas colunas foram convertidas para tipos numéricos (Int64 e Float64, respectivamente). Da mesma forma, dados em formatos inválidos tornaram-se nulos.
 
--ativo: A coluna foi normalizada através de uma sequência de comandos: remoção de espaços (.str.strip()), conversão para minúsculas (.str.lower()) e, por fim, o mapeamento (.map()) de suas variações textuais para valores booleanos (True/False) ou nulos.
+- ativo: A coluna foi normalizada através de uma sequência de comandos: remoção de espaços (.str.strip()), conversão para minúsculas (.str.lower()) e, por fim, o mapeamento (.map()) de suas variações textuais para valores booleanos (True/False) ou nulos.
 
 -Limpeza Final: O comando df.dropna() foi aplicado para remover todas as linhas que continham qualquer valor nulo gerado nas etapas anteriores, garantindo um conjunto de dados íntegro.
 
