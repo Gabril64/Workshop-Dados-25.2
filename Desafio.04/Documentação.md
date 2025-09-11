@@ -2,8 +2,8 @@
 
 - Para a resolução do desafio, foi utilizada a biblioteca pandas do Python, que permitiu o tratamento completo dos dados solicitados. O processo foi estruturado nas seguintes etapas:
 
-- 1 Carregamento dos Dados: O arquivo dados_nao_tratados.csv foi carregado em um DataFrame.
-- 2 Formatação de Colunas:
+- 1: Carregamento dos Dados: O arquivo dados_nao_tratados.csv foi carregado em um DataFrame.
+- 2: Formatação de Colunas:
 
 - data_inscricao: A coluna foi convertida para o formato de data com o comando pd.to_datetime. Valores que não puderam ser convertidos foram transformados em nulos (NaT).
 
